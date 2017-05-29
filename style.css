@@ -657,8 +657,8 @@ h4.project_title {
 
 /**Swift**/
 
-#cover_projects_swift {
-    background: url('img/project_cover_4.jpg') no-repeat;
+#cover_projects_swift{
+    background: url('img/project_cover_3') no-repeat;
     background-size: cover;
     background-position: top center;
     z-index: 0;
