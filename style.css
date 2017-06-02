@@ -707,6 +707,58 @@ article.part-2 {
 }
 
 
+@media screen and (max-width:768px) {
+
+#cover {
+    height: 467px;
+}
+
+.content img {
+    margin-top: 133px;
+    margin-left: 30%;
+    width: 35%;
+}
+
+.wrapper {
+    height: 100%;
+}
+
+h3 {
+     font-size: 38px;   
+}
+
+.overlay p {
+    padding-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 35px;
+    padding: 0;
+    margin: 3%;
+}
+
+a.link {
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+article {
+   
+    height: 250px;
+}
+.txt {
+    font-size: 18px;
+    width: 50%;
+    padding-top: 7%;
+    padding-bottom: 10%;
+}
+
+}
+
 @media screen and (max-width:450px) {
 
 .container {
@@ -995,6 +1047,34 @@ h4.project_title {
 .wrapper_half {
     display: block;
     width: 100%;
+}
+
+
+/*Dynamic project*/
+
+#cover_projects_dynamic {
+ 
+    height: 300px;
+    margin-top: 50px;
+}
+
+.part-2 p {
+    width: 100%;
+    padding: 20px 5px;
+    font-size: 15px;
+}
+
+
+/*Swift project*/
+
+#cover_projects_swift {
+ 
+    height: 300px;
+    margin-top: 50px;
+}
+
+.left {
+    order: 2;
 }
 
 }
